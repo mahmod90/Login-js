@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <h1 class="text-center">Book Mark</h1>
+
+  <div class="box w-50 m-auto py-5 tex text-center">
+    <div class="form-group px-5">
+      <label class="my-3" for="NameVal" >Name</label>
+      <input type="text" class="form-control" id="NameVal" placeholder="Enter Your Name">
+      <span id="Nwarning" class="text-danger ">Field Empty</span>
+      <span id="Ewarning" class="text-danger ">wrong Password</span>
+      <span id="exist-name" class="text-danger ">Exist Email before</span>
+    </div>
+    <div class="form-group px-5">
+      <label class="my-3" for="email" >Email</label>
+      <input type="text" class="form-control" id="email"  placeholder="Enter Your Email">
+      <span id="Urlwarning" class="text-danger" >Field Empty</span>
+      <span id="Pwarning" class="text-danger ">wrong Password</span>
+      <span id="exist-url" class="text-danger">Exist URl before</span>
+    <div class="form-group ">
+      <label class="my-3" for="Password">Password</label>
+      <input type="text" class="form-control" id="Password" placeholder="Enter Your Password">
+      <span id="Fempty" class="text-danger " >Field Empty</span>
+      <span id="Pwarning" class="text-danger ">wrong Password</span>
+      <span id="exist-url" class="text-danger">Match Password</span>
+    </div>
+    <button onclick="signUp()" class="btn btn-outline-danger my-4">
+      <a class="text-white" href="index2.html">Sign Up</a>
+    </button>
+    
+  </div>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/Sup.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

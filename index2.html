@@ -1,0 +1,43 @@
+<html>
+
+<head>
+s
+  <style>
+    body {
+      color: black !important;
+    }
+  </style>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1 class="text-center">Smart Login System</h1>
+
+  <div class="box w-50 m-auto py-5 tex px-2s">
+    <div class="form-group text-center px-3">
+      <label class="my-3 " for="email" >Email :</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+      <span id="Nwarning" class="text-danger ">Field Empty</span>
+      <span id="Ewarning" class="text-danger ">wrong Password</span>
+      <span id="exist-name" class="text-danger ">Exist Name before</span>
+    </div>
+    <div class="form-group text-center px-3">
+      <label class="my-3" for="Password" >Password :</label>
+      <input type="text" class="form-control" id="Password">
+      <span id="Urlwarning" class="text-danger " >Field Empty</span>
+      <span id="Pwarning" class="text-danger ">wrong Password</span>
+      <span id="match" class="text-danger">Match Password</span>
+    </div>
+    <button onclick="log()" class="btn btn-outline-danger my-4 w-100">Login</button>
+    <p class="text-white">Don’t have an account? <a class="text-white" href="signup.html">Sign Up</a></p>
+  </div>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/Sup.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
